@@ -1,11 +1,21 @@
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
-import GUI_1 from './components/GUI_1';
-import GUI_2 from './components/GUI_2';
-import GUI_3 from './components/GUI_3';
-import GUI_4 from './components/GUI_4';
 
-export default function App() {
-   return GUI_4();
+export default function GUI_1() {
+   return (
+      <View style={styles.container}>
+         <View style={styles.ellipse}>l</View>
+         <Text style={styles.text1}>GROW {'\n'} YOUR BUSINESS</Text>
+         <Text style={styles.text2}>We will help you to grow your business using {'\n'} online server</Text>
+         <View style={styles.action}>
+            <TouchableOpacity style={[styles.button, { marginEnd: 56 }]}>
+               <Text style={styles.button_input}>LOGIN</Text>
+            </TouchableOpacity>
+            <TouchableOpacity style={styles.button}>
+               <Text style={styles.button_input}>REGISTRY</Text>
+            </TouchableOpacity>
+         </View>
+      </View>
+   );
 }
 
 const styles = StyleSheet.create({
