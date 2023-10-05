@@ -1,6 +1,5 @@
 import { EyeFilled } from '@ant-design/icons';
-import { useMemo } from 'react';
-import { Image, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
+import { StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
 import { RadioButton } from 'react-native-radio-buttons-group';
 
 export default function GUI_6() {

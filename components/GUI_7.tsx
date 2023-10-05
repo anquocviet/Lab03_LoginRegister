@@ -1,7 +1,6 @@
-import { EyeFilled, LinkOutlined } from '@ant-design/icons';
+import { EyeFilled } from '@ant-design/icons';
 import { LinearGradient } from 'expo-linear-gradient';
-import { Image, Linking, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
-import GUI_6 from './GUI_6';
+import { Image, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
 
 export default function GUI_7() {
    return (

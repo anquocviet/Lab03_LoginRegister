@@ -1,6 +1,5 @@
-import { MailOutlined } from '@ant-design/icons';
 import { LinearGradient } from 'expo-linear-gradient';
-import { Image, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
+import { StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
 
 export default function GUI_4() {
    return (
