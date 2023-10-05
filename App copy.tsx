@@ -4,12 +4,9 @@ import GUI_2 from './components/GUI_2';
 import GUI_3 from './components/GUI_3';
 import GUI_4 from './components/GUI_4';
 import GUI_5 from './components/GUI_5';
-import GUI_6 from './components/GUI_6';
-import GUI_7 from './components/GUI_7';
-import GUI_8 from './components/GUI_8';
 
 export default function App() {
-   return GUI_8();
+   return GUI_5();
 }
 
 const styles = StyleSheet.create({
